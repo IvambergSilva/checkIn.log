@@ -44,13 +44,13 @@ export function AttendeeList() {
     })
 
     function handleInputSearch(event: ChangeEvent<HTMLInputElement>) {
-        setSearch(event.target.value)
+        setSearch(event.target.value.toLowerCase())
         setCurrentSearch(event.target.value)
         setPage(1)
     }
 
     useEffect(() => {
-        const url = new URL('http://localhost:3333/events/bef2c7e9-feb1-49b7-a127-d0791e09bd5b/attendees');
+        const url = new URL('https://checkin-log-backend.onrender.com/events/bef2c7e9-feb1-49b7-a127-d0791e09bd5b/attendees');
 
         url.searchParams.set('pageIndex', String(page - 1))
 
