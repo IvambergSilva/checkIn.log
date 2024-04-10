@@ -8,7 +8,11 @@ Com este frontend, os organizadores podem visualizar os participantes dos evento
 
 ## Apresentação
 
-Segue abaixo uma demonstração da aplicação. Irá mostrar 10 participantes por página
+### Confira o deploy da aplicação <a href="https://check-in-log.vercel.app/">aqui</a>
+
+<img src="/src/assets/images/exemplo3-CIL.gif" alt="Exemplo do projeto CheckIn Log"/><br>
+
+Segue abaixo uma demonstração estática da aplicação. Irá mostrar 10 participantes por página
 
 <img src="/src/assets/images/exemplo1-CIL.png" alt="Exemplo do projeto CheckIn Log"/><br>
 
