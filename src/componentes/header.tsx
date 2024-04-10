@@ -1,4 +1,4 @@
-import checkInIcon from "../assets/checkIn-log_icon.svg"
+import checkInIcon from "../assets/images/checkIn-log_icon.svg"
 
 export function Header() {
     return (
